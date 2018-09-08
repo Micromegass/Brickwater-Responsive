@@ -16,6 +16,10 @@ body {
 
 }
 
+.navbar-header .navbar-brand:hover {
+    background-color: #3399ff;
+}
+
 
 .navbar {
     margin-bottom: 0;
@@ -47,6 +51,39 @@ body {
 
 
 }
-    
+
+.img-responsive {
+    max-width: 75%;
+    padding-left: 220px;5 
+}
 
 
+
+.social a {
+
+ display: inline-block;
+ background-color: white;
+ margin-top: 12px;
+ margin-right: 5px;
+ padding: 5px;
+ border-color: #a05107;
+ border-radius: 5px;
+ color:black;
+ font-size: 15px;
+ line-height: 15px;
+ font-weight: bold;
+
+
+}
+
+.social {
+
+ display: inline-block;
+ margin-left: 10px;
+
+
+}
+
+.social a:hover {
+    background-color: #3399ff;
+}
