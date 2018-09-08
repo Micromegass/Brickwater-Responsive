@@ -1,0 +1,52 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.navbar-header .navbar-brand .brick-logo {
+
+    display: inline-block;
+    padding-top: 15px;
+    color: whitesmoke;
+
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;    
+    border: 0;
+    
+}
+
+.navbar-inverse .navbar-nav li a {
+
+    color: #D5D5D5;
+
+}
+
+.navbar-brand {
+
+    min-height: 55px;
+    padding: 0 15px 5px;
+
+}
+
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+
+    color:#FFF;
+    background-color: #222;
+
+
+}
+    
+
+
