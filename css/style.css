@@ -30,6 +30,19 @@ body {
     color: black;
 }
 
+.navbar-inverse .navbar-nav .active a {
+    background-color: transparent;
+    color: black;
+}
+
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color: transparent;
+    color: black;
+
+}
+
+
+
 #nav {
     background-color: transparent;
     color: grey;
@@ -43,12 +56,6 @@ body {
     padding: 0 15px 5px;
 }
 
-.navbar-inverse .navbar-nav .active a,
-.navbar-inverse .navbar-nav .active a:focus,
-.navbar-inverse .navbar-nav .active a:hover {
-    background-color: transparent;
-    color: black;
-}
 
 #album-cover {
     display: inline-block;
