@@ -30,6 +30,10 @@ body {
     color: black;
 }
 
+.navbar-inverse .navbar-nav li a:focus {
+        color: black;
+}
+
 .navbar-inverse .navbar-nav .active a {
     background-color: transparent;
     color: black;
@@ -112,7 +116,13 @@ body {
 }
 
 section {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+
+
+#Videos {
+
+    margin-top: 200px;
 }
 
 .box ul li {
