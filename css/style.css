@@ -128,3 +128,14 @@ section {
     margin-top: 150px;
     margin-bottom: 100px;
 }
+
+
+#hear {
+
+    display: none;
+    width: 500px;
+}
+
+#lyrics {
+    float: right;
+}

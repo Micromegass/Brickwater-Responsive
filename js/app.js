@@ -1,12 +1,6 @@
 $(document).ready(function () {
 
-    $('#hear').hide();
 
-    $('#hear-song').on('click', function () {
-
-        $("#hear").toggle(display);
-
-    });
 
 
 
@@ -51,3 +45,8 @@ function onScroll(event) {
 
 
 }
+
+
+$('#hear-song').on('click', function () {
+    $("#hear").toggle("display");
+});
