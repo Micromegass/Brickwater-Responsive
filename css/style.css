@@ -52,9 +52,15 @@ body {
 
 }
 
+#album-cover {
+    float: left;
+    padding-left:0; 
+    max-width: 50%;
+    padding-right: 100px;
+}
+
 .img-responsive {
-    max-width: 75%;
-    padding-left: 220px;5 
+    max-width: 60%;
 }
 
 
@@ -91,7 +97,6 @@ body {
 
 
 .songkick {
-    padding-left: 30px;
     text-align: center;
 
 }
@@ -106,6 +111,20 @@ body {
 
 section {
 
-    margin-bottom: 33px;
+    margin-bottom: 50px;
 
+}
+
+
+.box ul li{
+
+    list-style: none;
+    margin: 20px;
+}
+
+
+#Alben {
+
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
