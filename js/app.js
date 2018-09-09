@@ -1,4 +1,16 @@
 $(document).ready(function () {
+
+    $('#hear').hide();
+
+    $('#hear-song').on('click', function () {
+
+        $("#hear").toggle(display);
+
+    });
+
+
+
+
     $(document).on("scroll", onScroll);
 
     $('nav a[href^="#"]').on('click', function (e) {
@@ -34,8 +46,8 @@ function onScroll(event) {
             currentLink.removeClass("active");
         }
     });
+
+
+
+
 }
-
-
-
-
