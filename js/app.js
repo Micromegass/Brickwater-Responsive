@@ -35,8 +35,7 @@ function onScroll(event) {
         if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
             $('nav a').removeClass("active");
             currentLink.addClass("active");
-        }
-        else {
+        } else {
             currentLink.removeClass("active");
         }
     });
@@ -52,3 +51,5 @@ $('#ship').hide();
 $('#hear-song').on('click', function () {
     $("#hear").slideToggle(3000);
 });
+
+$('')
