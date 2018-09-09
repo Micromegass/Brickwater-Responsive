@@ -4,7 +4,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Rajdhani',sans-serif;
+    background-color: #fcfeff;
+
 }
 
 
@@ -12,17 +14,14 @@ body {
 
     display: inline-block;
     padding-top: 15px;
-    color: whitesmoke;
+    color: gray;
 
 }
 
-.navbar-header .navbar-brand:hover {
-    background-color: #3399ff;
-}
 
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 0; 
     border-radius: 0;    
     border: 0;
     
@@ -30,8 +29,26 @@ body {
 
 .navbar-inverse .navbar-nav li a {
 
-    color: #D5D5D5;
+    display: inline-block;
+    color: gray;
+    padding-right: 20px;
+}
 
+.navbar-inverse .navbar-nav li a:hover {
+    color: black;
+   
+}
+
+
+#nav {
+
+    background-color:transparent;
+    color: grey;
+    padding-right: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+
+    
 }
 
 .navbar-brand {
@@ -46,20 +63,20 @@ body {
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
 
-    color:#FFF;
-    background-color: #222;
-
+    background-color:transparent;
+    color:black;
 
 }
 
 #album-cover {
-    float: left;
-    padding-left:0; 
-    max-width: 50%;
-    padding-right: 100px;
+    display: inline-block;
+    max-width: 130%;
+    border: 2px solid gray; 
+    margin-right: 150px;
 }
 
 .img-responsive {
+    padding-top: 20px;
     max-width: 60%;
 }
 
@@ -68,14 +85,13 @@ body {
 .social a {
 
  display: inline-block;
- background-color: white;
+ background-color: #fcfeff;
  margin-top: 12px;
  margin-right: 5px;
  padding: 5px;
- border-color: #a05107;
  border-radius: 5px;
- color:black;
- font-size: 15px;
+ color:lightslategray;
+ font-size: 20px;
  line-height: 15px;
  font-weight: bold;
 
@@ -85,13 +101,15 @@ body {
 .social {
 
  display: inline-block;
- margin-left: 10px;
+ margin-left: 30px;
+ 
 
 
 }
 
 .social a:hover {
-    background-color: #3399ff;
+    background-color: #fcfeff;
+    color: black;
 }
 
 
@@ -103,15 +121,22 @@ body {
 
 .heading {
 
-    font-size: 32px;
     text-align: center;
     margin-bottom: 35px;
     margin-top: 15px;
 }
 
+
+
+#heading-cover {
+
+    margin-left: 100px;
+}
+
+
 section {
 
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
@@ -120,22 +145,35 @@ section {
 
     list-style: none;
     margin: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 30px;
 }
 
 
-#Alben {
+#Album {
 
     margin-top: 150px;
     margin-bottom: 100px;
 }
 
 
+
+
+
+#home {
+
+    background-color: #fcfeff;
+}
+
+
 #hear {
 
-    display: none;
-    width: 500px;
+    text-align: center;
+    line-height: 25px;
+
 }
 
-#lyrics {
-    float: right;
-}
+
+
+

@@ -47,6 +47,8 @@ function onScroll(event) {
 }
 
 
+$('#ship').hide();
+
 $('#hear-song').on('click', function () {
-    $("#hear").toggle("display");
+    $("#hear").slideToggle(3000);
 });

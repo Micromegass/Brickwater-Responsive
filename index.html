@@ -7,9 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brickwater</title>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
+
+
+
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
@@ -18,10 +27,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
 
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
@@ -34,7 +39,7 @@
 
 <body>
 
-    <nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
         <div class="container-fluid ">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -43,7 +48,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- insert image here in the source to display logo -->
-                <a class="navbar-brand" href="#"> <span class="brick-logo">BRICKWATER</span> <img src="" alt=""></a>
+                <a class="navbar-brand" href="#"> <span class="brick-logo"></span> <img src="" alt=""></a>
                 <span class="social">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/brickwatermusic/"><i class="fab fa-facebook-square"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://brickwater.bandcamp.com/"> <i class="fa fa-music"></i></a>
@@ -53,11 +58,11 @@
 
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"> <a href="#home">Home</a> </li>
-                    <li><a href="#Live">Live</a></li>
-                    <li><a href="#Alben">Alben</a></li>
-                    <li><a hrsef="#">Videos</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"> <a href="#home">HOME</a> </li>
+                    <li><a href="#Live">KONZERTE</a></li>
+                    <li><a href="#Album">ALBUM</a></li>
+                    <li><a hrsef="#">VIDEOS</a></li>
+                    <li><a href="#">KONTAKT</a></li>
                 </ul>
             </div>
         </div>
@@ -75,39 +80,38 @@
         </div>
     </section>
 
+<!-- calender display with Songkick -->
+<section id="Live">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-4">
+                <div class="songkick">
+                    <h2 class="heading"> Live Konzerte </h2>
 
-    <!-- calender display with Songkick -->
-    <section id="Live">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="songkick">
-                        <h3 class="heading"> Live Konzerte: </h3>
-
-                        <iframe src="http://widget.songkick.com/songkick-widget.html?artist=2321725" style="height: 800px; width: 550px;"></iframe>
-                        <script src="//widget.songkick.com/8895009/widget.js"></script>
-                    </div>
-                    </dic>
+                    <iframe src="http://widget.songkick.com/songkick-widget.html?artist=8613194" style="height: 500px; width: 700px;"></iframe>
+                    <script src="//widget.songkick.com/8895009/widget.js"></script>
                 </div>
             </div>
+        </div>
+    </div>
 
-    </section>
 
+</section>
 
-    <!-- calender display with Songkick -->
-    <section id="Alben">
+    <!-- Displaying new Album in 3 boxes -->
+    <section id="Album">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="heading"> Alben</h2>
+                    <h2 class="heading"> Neues Album </h2>
                     
-                    <div class="box" id="cover">
-                        <h3> Out Now: </h3>
+                    <div class="box col-sm-4" id="cover">
+                        <h3 class="heading" id="heading-cover"> Cover </h3>
                         <img src="images/band/cover.jpg" class="img-responsive" id="album-cover" alt="Album Cover">
                     </div>
 
-                    <div class="box" id="songs">
-                        <h3> Songs </h3>
+                    <div class="box col-sm-4" id="songs">
+                        <h3 class="heading" id="heading-songs"> Songs </h3>
                         <ul>
                             <li id="hear-song"> 1. Song1</li>
                             <li> 2. Song2</li>
@@ -119,21 +123,30 @@
                         </ul>
                     </div>
 
-                    <div class="box" id="lyrics">
+                <div class="box col-sm-4" id="lyrics">
                             
+                    <h3 class="heading">Lyrics</h3>
                     <p id="hear">
-        I don't wanna hear it anymore so stop repeating your monologue. I ain’t the one that give you what you need,
-        because I hardly can deal with this guy up here. And I don’t know the answers to all of your right or wrong questions so honey, I’m
-        just trying to do my best with this hungry beating heart right down beneath my chest. Yeah, I wanted the moon since Frankie
-        waned it, I want to earn money like robin hood did, I want to get high and wasted, anytime that I need a break so leave me
-        alone, or love me unconditionally. Having semi-naked coffee conversations with myself about the existential things but I'm
-        losing every argument. Remember all the hours I spent trying to look myself in the eyes? Today, I’m tired of thinking and
-        headache. Tonight,I might be able to spit fire all along the ugly streetlights that make me a moth carrying my way. See yeah, I
-        wanted the moon since Frankie wanted it, I want to earn money like robin hood did, I want to get high and wasted, anytime that
-        I need a break so leave me alone, or love me unconditionally. 
+                    I don't wanna hear it anymore so stop repeating your monologue. I ain’t the one that give you what you need,
+                    because I hardly can deal with this guy up here. And I don’t know the answers to all of your right or wrong questions so honey, I’m
+                    just trying to do my best with this hungry beating heart right down beneath my chest. Yeah, I wanted the moon since Frankie
+                    waned it, I want to earn money like robin hood did, I want to get high and wasted, anytime that I need a break so leave me
+                    alone, or love me unconditionally. Having semi-naked coffee conversations with myself about the existential things but I'm
+                    losing every argument. Remember all the hours I spent trying to look myself in the eyes? Today, I’m tired of thinking and
+                    headache. Tonight,I might be able to spit fire all along the ugly streetlights that make me a moth carrying my way. See yeah, I
+                    wanted the moon since Frankie wanted it, I want to earn money like robin hood did, I want to get high and wasted, anytime that
+                    I need a break so leave me alone, or love me unconditionally. 
                     </p>
                     
-                    </div>
+                    <p id="ship">
+                        this fuckin ship is sinkin, I swallow water already.
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    </p>
+
+
+                </div>
 
 
                 </div>
