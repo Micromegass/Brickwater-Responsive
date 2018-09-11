@@ -57,7 +57,7 @@
                     <li><a href="#Live">KONZERTE</a></li>
                     <li><a href="#Album">ALBUM</a></li>
                     <li><a href="#Videos">VIDEOS</a></li>
-                    <li><a href="#">KONTAKT</a></li>
+                    <li><a href="#Kontakt">KONTAKT</a></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +80,7 @@
             <div class="row">
                 <div class="col-sm-12 col-xs-2">
                     <div class="songkick">
-                        <h2 class="heading"> Live Konzerte </h2>
+                        <h2 class="heading"> LIVE KONZERTE </h2>
 
                         <iframe src="http://widget.songkick.com/songkick-widget.html?artist=8613194" style="height:30vw; width:70vw;"></iframe>
                         <script src="//widget.songkick.com/8895009/widget.js"></script>
@@ -95,7 +95,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="heading"> Neues Album </h2>
+                    <h2 class="heading"> NEUES ALBUM </h2>
 
                     <div class="box col-sm-4 col-xs-9" id="cover">
                         <h3 class="heading" id="heading-cover"> Cover </h3>
@@ -103,21 +103,22 @@
                     </div>
 
                     <div class="box col-sm-4 col-xs-12" id="songs">
-                        <h3 class="heading" id="heading-songs"> Songs </h3>
+                        <h3 class="heading" id="heading-songs"> Titel </h3>
                         <ul>
-                            <li id="hear-song"> 1. Song1</li>
-                            <li> 2. Song2</li>
-                            <li> 3. Song3</li>
-                            <li> 4. Song4</li>
-                            <li> 5. Song5</li>
-                            <li> 6. Song6</li>
-                            <li> 7. Song7</li>
+                            <li id="hear-song"> 1. THE COMING UP WHATEVER </li>
+                            <li> 2. STARVING </li>
+                            <li> 3. LOWER THE BLINDS </li>
+                            <li> 4. IT'S OKAY</li>
+                            <li> 5. MEDICINE</li>
+                            <li> 6. I DON'T WANNA HEAR IT ANYMORE</li>
+                            <li> 7. POSITIVE VISIONS</li>
+                            <li> 7. JUMPING JUST TO FALL</li>
                         </ul>
                     </div>
 
                     <div class="box col-sm-4 col-xs-12" id="lyrics">
 
-                        <h3 class="heading" id="heading-songs">Lyrics</h3>
+                        <h3 class="heading" id="heading-songs">Songtexte</h3>
                         <p id="hear">
                             I don't wanna hear it anymore so stop repeating your monologue. I ain’t the one that give
                             you what you need,
@@ -149,8 +150,6 @@
 
 
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -163,18 +162,16 @@
             <div class="row">
                 <div class="col-sm-12">
 
-                    <h2 class="heading"> Live Videos </h2>
+                    <h2 class="heading"> LIVE VIDEOS </h2>
 
                     <div class="box col-sm-6" id="video1">
-
                         <iframe width="550" height="400" src="https://www.youtube.com/embed/yj3jzF3sWu4?showinfo=0"
-                            frameborder="0"></iframe>
+                            frameborder="0" allowfullscreen></iframe>
                     </div>
 
                     <div class="box col-sm-6" id="video2">
                         <iframe width="550" height="400" src="https://www.youtube.com/embed/0Npnl5Ekx_0?rel=0&amp;showinfo=0"
                             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
                     </div>
 
                 </div>
@@ -183,13 +180,22 @@
     </section>
 
 
-    <section id="Contact">
-       
+    <section id="Kontakt">
+
+        <h3 class="heading"> KONTAKT </h3>
+
+        <form action="https://getsimpleform.com/messages?form_api_token=b3506109e87dd7df86a2522ffaffc6cc" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='aca pongo mi url' />
+            <!-- all your input fields here.... -->
+
+            <div class="form-group col-sm-6 col-sm-offset-3"><input type='text' name='email' placeholder="email@example.de"
+                    class="form-control" /></div>
+            <div class="form-group col-sm-6 col-sm-offset-3"> <textarea rows="10" class="form-control" placeholder="Schreibe uns hier deine Nachricht... "></textarea></div>
+            <div class=""><input type='submit' value='Send' class="form-control" /></div>
+
+        </form>
     </section>
-
-
-
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

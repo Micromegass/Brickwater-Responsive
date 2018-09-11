@@ -49,7 +49,6 @@ function onScroll(event) {
 $('#ship').hide();
 
 $('#hear-song').on('click', function () {
-    $("#hear").slideToggle(3000);
+    $("#hear").fadeToggle(3000);
 });
 
-$('')

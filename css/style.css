@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-    color: black;
+    color: #EA7F64;
 }
 
 .navbar-inverse .navbar-nav li a:focus {
@@ -41,7 +41,7 @@ body {
 
 .navbar-inverse .navbar-nav .active a:hover {
     background-color: transparent;
-    color: black;
+    color: #EA7F64;
 
 }
 
@@ -133,6 +133,12 @@ section {
     padding-right: 30px;
 }
 
+.box ul li:hover {
+
+    cursor: pointer;
+    color: #EA7F64;
+}
+
 #Album {
     margin-top: 150px;
     margin-bottom: 100px;
@@ -156,3 +162,4 @@ section {
 
     padding-left: 10px;
 }
+
