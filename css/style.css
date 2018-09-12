@@ -8,6 +8,15 @@ body {
 
 }
 
+
+footer {
+    padding: 90px 0;
+    text-align: center;
+}
+
+
+/* Navbar Styling */
+
 .navbar-header .navbar-brand .brick-logo {
     display: inline-block;
     padding-top: 15px;
@@ -65,6 +74,11 @@ body {
     padding: 0 15px 5px;
 }
 
+/* Navbar Styling End*/
+
+
+
+/* Background and Image Styling*/
 
 #album-cover {
     display: inline-block;
@@ -77,6 +91,82 @@ body {
     padding-top: 20px;
     max-width: 60%;
 }
+
+/* Background Styling*/
+
+
+
+
+
+.songkick {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+#heading-cover {
+    margin-left: 100px;
+}
+
+
+
+
+.box ul li {
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.box ul li:hover {
+
+    cursor: pointer;
+    color: #EA7F64;
+}
+
+
+
+section {
+    margin-bottom: 150px;
+}
+
+
+#home {
+    background-color: #FEFEFE;
+}
+
+#Album {
+    padding-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+#Videos {
+
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+
+#Live {
+
+    padding-top: 100px;
+}
+
+#Kontakt {
+    padding-bottom: 250px;
+    padding-top: 50px;
+}
+
+
+
+/* Social Buttons Styling */
 
 .social a {
     display: inline-block;
@@ -102,15 +192,14 @@ body {
 }
 
 .social2 a {
-
- display: inline-block;
- background-color: #FEFEFE;
- margin-right: 5px;
- border-radius: 5px;
- color:rgb(76, 61, 50);
- font-size: 23px;
- line-height: 15px;
- font-weight: bold;
+    display: inline-block;
+    background-color: #FEFEFE;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: rgb(76, 61, 50);
+    font-size: 23px;
+    line-height: 15px;
+    font-weight: bold;
 }
 
 .social2 {
@@ -122,78 +211,12 @@ body {
     color: black;
 }
 
+/* Social Buttons Styling End */
 
 
 
-.songkick {
-    text-align: center;
-}
+/* Rest Style */
 
-.heading {
-    text-align: center;
-    margin-bottom: 35px;
-    margin-top: 15px;
-}
-
-#heading-cover {
-    margin-left: 100px;
-}
-
-section {
-    margin-bottom: 150px;
-}
-
-
-#Videos {
-
-    margin-top: 200px;
-}
-
-.box ul li {
-    list-style: none;
-    margin: 20px;
-    font-size: 18px;
-    text-align: center;
-    padding-right: 30px;
-}
-
-.box ul li:hover {
-
-    cursor: pointer;
-    color: #EA7F64;
-}
-
-#Album {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    margin-top: 150px;
-    margin-bottom: 100px;
-}
-
-#home {
-    background-color: #FEFEFE;
-}
-
-#Videos {
-
-    padding-top: 100px;
-}
-
-
-#Live {
-
-    padding-top: 100px;
-}
-
-#hear {
-    text-align: center;
-    line-height: 25px;
-}
-
-#songs {
-
-    padding-left: 100px;
-}
 
 #heading-songs {
 
@@ -202,7 +225,6 @@ section {
 
 .fa-paper-plane {
 
-
     color: black;
 
 }
@@ -210,7 +232,8 @@ section {
 
 .btn-info {
 
-    background-color: #CAD5AF
+    background-color: #CAD5AF;
+    color: rgb(40, 54, 54);
 
 }
 
@@ -221,10 +244,47 @@ section {
 
 }
 
+.data-protection {
 
-#Kontakt {
-
-padding-bottom: 300px;
-padding-top: 50px;
+    padding-left: 180px;
+    
 }
+.data-protection:hover {
+
+    cursor: pointer;
+
+}
+
+#datenschutz {
+
+   
+}
+/* Rest Style End */
+
+
+
+
+/* Songs Styling */
+
+#songs {
+    padding-left: 80px;
+}
+
+#tetsong1 {
+    text-align: left;
+    line-height: 25px;
+}
+
+.active {
+
+    color: #EA7F64;
+}
+
+/* Songs Styling End */
+
+
+
+
+
+
 
