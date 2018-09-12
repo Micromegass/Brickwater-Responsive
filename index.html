@@ -180,19 +180,40 @@
 
     <section id="Kontakt">
 
-        <h3 class="heading"> KONTAKT </h3>
+        <h2 class="heading"> KONTAKT </h2>
 
         <form action="https://getsimpleform.com/messages?form_api_token=b3506109e87dd7df86a2522ffaffc6cc" method="post">
             <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type='hidden' name='redirect_to' value='https://micromegass.github.io/Brickwater-Responsive/' />
+
+            <div class="form-group">
+                <input type='hidden' name='redirect_to' value='https://micromegass.github.io/Brickwater-Responsive/' />
+            </div>
             <!-- all your input fields here.... -->
 
-            <div class="form-group col-sm-6 col-sm-offset-3"><input type='text' name='email' placeholder="email@example.de"
-                    class="form-control" /></div>
-            <div class="form-group col-sm-6 col-sm-offset-3"> <textarea rows="10" class="form-control" placeholder="Schreibe uns hier deine Nachricht... "></textarea></div>
-            <div class=""><input type='submit' value='Send' class="form-control" /></div>
+            <div class="form-group col-sm-6 col-sm-offset-3">
+                <input type='text' name='email' placeholder="email@example.de" class="form-control" />
+            </div>
+
+            <div class="form-group col-sm-6 col-sm-offset-3">
+                <textarea rows="7" placeholder="Schreib Brickwater eine Nachricht..." type="text" name="message" id="message"
+                    class="form-control"></textarea>
+                <br>
+                <button class="btn btn-info" type="submit"><span class="fas fa-paper-plane "></span> Senden </button>
+
+                <span class="social2">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/brickwatermusic/"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://brickwater.bandcamp.com/"> <i class="fa fa-music"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_brickwater_/"><i
+                            class="fab fa-instagram"></i></a>
+                </span>
+
+            </div>
 
         </form>
+
+
+
     </section>
 
 

@@ -101,6 +101,30 @@ body {
     color: black;
 }
 
+.social2 a {
+
+ display: inline-block;
+ background-color: #FEFEFE;
+ margin-right: 5px;
+ border-radius: 5px;
+ color:rgb(76, 61, 50);
+ font-size: 23px;
+ line-height: 15px;
+ font-weight: bold;
+}
+
+.social2 {
+    display: inline-block;
+    float: right;
+}
+
+.social2 a:hover {
+    color: black;
+}
+
+
+
+
 .songkick {
     text-align: center;
 }
@@ -140,12 +164,25 @@ section {
 }
 
 #Album {
+    padding-top: 50px;
+    padding-bottom: 100px;
     margin-top: 150px;
     margin-bottom: 100px;
 }
 
 #home {
     background-color: #FEFEFE;
+}
+
+#Videos {
+
+    padding-top: 100px;
+}
+
+
+#Live {
+
+    padding-top: 100px;
 }
 
 #hear {
@@ -163,3 +200,36 @@ section {
     padding-left: 10px;
 }
 
+.fa-paper-plane {
+
+
+    color: black;
+
+}
+
+
+.btn-info {
+
+    background-color: #CAD5AF
+
+}
+
+.btn-info:hover {
+
+    background-color: #EA7F64;
+  
+
+}
+
+
+#Kontakt {
+
+padding-bottom: 300px;
+padding-top: 50px;
+}
+
+
+
+.scale {
+    transform: scale(46);
+}
