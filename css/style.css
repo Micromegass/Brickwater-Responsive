@@ -169,16 +169,22 @@ body {
 .social2 a {
     display: inline-block;
     background-color: #FEFEFE;
-    margin-right: 5px;
+    margin-right: 15px;
     border-radius: 5px;
     color: black;
-    font-size: 23px;
+    font-size: 30px;
     line-height: 15px;
     font-weight: bold;
 }
 
 .social2 {
     display: inline-block;
+   
+}
+
+.icons {
+
+     text-align: center;
 }
 
 .social2 a:hover {
@@ -215,11 +221,7 @@ body {
 
 }
 
-.data-protection {
 
-    padding-left: 180px;
-    
-}
 .data-protection:hover {
 
     cursor: pointer;
