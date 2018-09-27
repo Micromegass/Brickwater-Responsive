@@ -9,11 +9,6 @@ body {
 }
 
 
-footer {
-    padding: 90px 0;
-    text-align: center;
-}
-
 
 /* Navbar Styling */
 
@@ -84,12 +79,11 @@ footer {
     display: inline-block;
     max-width: 130%;
     border: 2px solid gray;
-    margin-right: 150px;
+    margin-bottom: 50px;
 }
 
 .img-responsive {
     padding-top: 20px;
-    max-width: 60%;
 }
 
 /* Background Styling*/
@@ -105,11 +99,7 @@ footer {
 .heading {
     text-align: center;
     margin-bottom: 35px;
-    margin-top: 15px;
-}
-
-#heading-cover {
-    margin-left: 100px;
+    margin-top: 70px;
 }
 
 
@@ -117,10 +107,9 @@ footer {
 
 .box ul li {
     list-style: none;
-    margin: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     text-align: center;
-    padding-right: 30px;
 }
 
 .box ul li:hover {
@@ -131,36 +120,22 @@ footer {
 
 
 
-section {
-    margin-bottom: 150px;
-}
-
-
 #home {
     background-color: #FEFEFE;
-}
-
-#Album {
-    padding-bottom: 100px;
-    margin-top: 150px;
-    margin-bottom: 150px;
 }
 
 
 #Videos {
 
-    margin-top: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
 #Live {
-
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #Kontakt {
-    padding-bottom: 250px;
     padding-top: 50px;
 }
 
@@ -196,7 +171,7 @@ section {
     background-color: #FEFEFE;
     margin-right: 5px;
     border-radius: 5px;
-    color: rgb(76, 61, 50);
+    color: black;
     font-size: 23px;
     line-height: 15px;
     font-weight: bold;
@@ -204,7 +179,6 @@ section {
 
 .social2 {
     display: inline-block;
-    float: right;
 }
 
 .social2 a:hover {
@@ -218,10 +192,7 @@ section {
 /* Rest Style */
 
 
-#heading-songs {
 
-    padding-left: 10px;
-}
 
 .fa-paper-plane {
 
@@ -266,14 +237,9 @@ section {
 
 /* Songs Styling */
 
-#songs {
-    padding-left: 80px;
-}
 
-#tetsong1 {
-    text-align: left;
-    line-height: 25px;
-}
+
+
 
 .active {
 
@@ -281,10 +247,5 @@ section {
 }
 
 /* Songs Styling End */
-
-
-
-
-
 
 
