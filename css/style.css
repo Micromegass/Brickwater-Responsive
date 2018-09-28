@@ -127,12 +127,18 @@ body {
 
 #Videos {
 
-    padding-top: 50px;
+    padding-top: 20px;
+
 }
 
 
+#Album {
+
+    padding-top:50px;
+}
+
 #Live {
-    padding-top: 50px;
+    padding-top: 50px; 
 }
 
 #Kontakt {
@@ -188,7 +194,7 @@ body {
 }
 
 .social2 a:hover {
-    color: black;
+    color: #EA7F64;
 }
 
 /* Social Buttons Styling End */
@@ -198,7 +204,12 @@ body {
 /* Rest Style */
 
 
+footer {
 
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
 
 .fa-paper-plane {
 
@@ -217,19 +228,13 @@ body {
 .btn-info:hover {
 
     background-color: #EA7F64;
-  
 
 }
 
-
-.data-protection:hover {
-
-    cursor: pointer;
-
-}
 
 #datenschutz {
 
+    cursor: pointer;
    
 }
 /* Rest Style End */
@@ -251,3 +256,8 @@ body {
 /* Songs Styling End */
 
 
+.radio-inline {
+
+    float: right;
+    font-weight: bold;
+}
