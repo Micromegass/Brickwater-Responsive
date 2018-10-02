@@ -78,12 +78,12 @@ body {
 #album-cover {
     display: inline-block;
     max-width: 130%;
-    border: 2px solid gray;
+    border: 2px solid lightslategray;
     margin-bottom: 50px;
 }
 
 .img-responsive {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 /* Background Styling*/
@@ -281,5 +281,14 @@ footer {
     top: 30px;
     width: 100%;
     z-index: 999;
+
+}
+
+
+
+.insta img {
+
+padding-right: 7px;
+margin: 20px;
 
 }

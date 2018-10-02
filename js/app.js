@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+
 $('#textsong2').hide();
 $('#textsong3').hide();
 $('#textsong4').hide();
