@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav li a:focus {
-        color: black;
+    color: black;
 }
 
 .navbar-inverse .navbar-nav .active a {
@@ -51,7 +51,7 @@ body {
 
 .navbar-toggle {
 
-    background-color:#999999;
+    background-color: #D8D8D8;
 }
 
 
@@ -134,11 +134,11 @@ body {
 
 #Album {
 
-    padding-top:50px;
+    padding-top: 50px;
 }
 
 #Live {
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 #Kontakt {
@@ -177,20 +177,21 @@ body {
     background-color: #FEFEFE;
     margin-right: 15px;
     border-radius: 5px;
-    color: black;
+    color: rgb(41, 39, 39);
     font-size: 30px;
     line-height: 15px;
     font-weight: bold;
 }
 
+
 .social2 {
     display: inline-block;
-   
+
 }
 
 .icons {
 
-     text-align: center;
+    text-align: center;
 }
 
 .social2 a:hover {
@@ -235,8 +236,9 @@ footer {
 #datenschutz {
 
     cursor: pointer;
-   
+
 }
+
 /* Rest Style End */
 
 
@@ -260,4 +262,24 @@ footer {
 
     float: right;
     font-weight: bold;
+}
+
+
+#slider1 {
+
+    width: 100%;
+}
+
+
+
+.my-carousel {
+    top: 0;
+}
+
+.my-nav {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    z-index: 999;
+
 }

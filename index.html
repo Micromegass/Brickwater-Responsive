@@ -8,6 +8,8 @@
     <title>Brickwater</title>
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -25,32 +27,10 @@
 
 <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
-        <div class="container-fluid ">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- insert image here in the source to display logo -->
-                <a class="navbar-brand" href="#"> <span class="brick-logo"></span> <img src="" alt=""></a>
-            </div>
 
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"> <a href="#home">HOME</a> </li>
-                    <li><a href="#Live">KONZERTE</a></li>
-                    <li><a href="#Album">ALBUM</a></li>
-                    <li><a href="#Videos">VIDEOS</a></li>
-                    <li><a href="#Kontakt">KONTAKT</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <!-- background image -->
-    <section id="home">
+    <!-- <section id="home">
         <div class="container">
             <div class="row">
                 <div class="col-sm-9 col-md-7 col-xs-10 col-sm-offset-2 col-xs-offset-1">
@@ -58,7 +38,65 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <div class="header">
+        <nav class="my-nav navbar navbar-inverse" id="nav">
+            <div class="container-fluid ">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- insert image here in the source to display logo -->
+                    <a class="navbar-brand" href="#"> <span class="brick-logo"></span> <img src="" alt=""></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"> <a href="#home">HOME</a> </li>
+                        <li><a href="#Live">TOUR DATES</a></li>
+                        <li><a href="#Album">RELEASES</a></li>
+                        <li><a href="#Videos">VIDEOS</a></li>
+                        <li><a href="#Kontakt">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section id="home">
+        <!-- slider -->
+        <div id="myCarousel" class="my-carousel carousel slide" data-ride="carousel">
+
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/slider/slider1.jpg" alt="First Slide" id="slider1">
+                </div>
+
+                <div class="item">
+                    <img src="images/slider/slider3.jpg" alt="Third Slide" id="slider1">
+                </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!-- end slider  -->
     </section>
+
+
 
     <!-- calender display with Songkick -->
     <section id="Live">
@@ -66,7 +104,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-xs-12">
                     <div class="songkick">
-                        <h2 class="heading1"> LIVE KONZERTE </h2>
+                        <h2 class="heading1"> TOUR DATES </h2>
                         <iframe style="height: 350px;" src="https://widget.songkick.com/songkick-widget.html?artist=8613194"
                             class="col-xs-offset-1 col-sm-10 col-md-10 col-xs-10"></iframe>
                     </div>
@@ -80,7 +118,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-xs-12">
-                    <h2 class="heading"> NEUES ALBUM </h2>
+                    <h2 class="heading"> RELEASES </h2>
 
                     <div class="box col-md-4 col-sm-6 col-xs-8" id="cover">
                         <div class="col-md-12 col-sm-12 col-xs-12 col-xs-offset-2">
@@ -272,17 +310,16 @@
         <div class="container">
             <div class="row">
                 <h2 class="heading col-sm-offset-1 col-xs-offset-1 col-md-offset-0"> VIDEOS </h2>
-                <div class="col-md-12" id="video1">
-                    <iframe class="col-md-12 col-sm-9 col-xs-9 col-xs-offset-2 col-md-offset-0" style="height: 70vh"
-                        src="https://www.youtube.com/embed/fHqmfA3HigQ?showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
-                        allowfullscreen></iframe>
-                </div>
+                <iframe class="col-md-12 col-sm-9 col-xs-9 col-xs-offset-2 col-md-offset-0" style="height: 70vh" src="https://www.youtube.com/embed/fHqmfA3HigQ?showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
     <section id="Kontakt">
-        <h2 class="heading"> KONTAKT </h2>
+        <h2 class="heading"> CONTACT </h2>
+
+        <div class="like-us-on">Listen, watch and like us on:</div>
         <div class="icons">
             <span class="social2">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/brickwatermusic/"><i class="fab fa-facebook-square"></i></a>
@@ -290,9 +327,21 @@
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_brickwater_/"><i class="fab fa-instagram"></i></a>
                 <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/3ExCH2eoMuC70pzonI5N05"><i
                         class="fab fa-spotify"></i></a>
-                <a href="mailto:brickwater@gmx.de ?Subject=Hello%20again" target="_top"><span><i class="fas fa-envelope"></i></span></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://itunes.apple.com/de/album/jumping-just-to-fall-single/1433994002?i=1433994051"><i
+                        class="fab fa-itunes-note" id="itunes"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCHlmtdIGk8RC-KUdbhe6siw"><i
+                        class="fab fa-youtube-square"></i></a>
             </span>
         </div>
+
+        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3ExCH2eoMuC70pzonI5N05&size=detail&theme=light"
+            width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;"
+            allowtransparency="true"></iframe>
+        <br><br><br>
+
+        <div class="booking"> For booking, please contact: </div>
+        <div class="link-booking"><a href="mailto:brickwater@gmx.de ?Subject=Hello%20again" target="_top">brickwater@gmx.de</a></div>
+
         <br><br><br>
         <form action="https://getsimpleform.com/messages?form_api_token=dfe55524aa9d8facb79f3a1c0bbb5277" method="post">
             <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
@@ -445,6 +494,10 @@
     </section>
 
 
+
+    <div id="instafeed"></div>
+
+
     <footer class="col-md-6 col-sm-6 col-xs-12 col-xs-offset-3 col-md-offset-4">
         © 2018
         <strong>Brickwater</strong>, Alle Rechte vorbehalten
@@ -453,6 +506,8 @@
             Datenschutzerklärung</label>
     </footer>
 
+    <script src="js/custom.js"></script>
+    <script src="js/instafeed.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
 </body>
