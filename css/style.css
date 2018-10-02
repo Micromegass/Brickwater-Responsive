@@ -1,18 +1,16 @@
-
-
 * {
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #FEFEFE;
-        font-family: 'Rajdhani', sans-serif;
-
-
+    font-family: 'Rajdhani', sans-serif;
 }
 
-
+.brick-logo img {
+    padding-top: 3px;
+    width: 220px;
+}
 
 /* Navbar Styling */
 
@@ -30,8 +28,8 @@ body {
 
 .navbar-inverse .navbar-nav li a {
     display: inline-block;
-    color: gray;
-    padding-right: 20px;
+    color: black;
+    padding-right: 30px;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
@@ -50,22 +48,18 @@ body {
 .navbar-inverse .navbar-nav .active a:hover {
     background-color: transparent;
     color: #EA7F64;
-
 }
 
 .navbar-toggle {
-
     background-color: #D8D8D8;
 }
 
-
-
 #nav {
-    background-color: transparent;
-    color: grey;
-    padding-right: 30px;
+    background-color: #FFFFFF;
+    color: black;
     font-family: 'Rajdhani', sans-serif;
     font-size: 17px;
+    padding-right: 250px;
 }
 
 .navbar-brand {
@@ -75,8 +69,6 @@ body {
 
 /* Navbar Styling End*/
 
-
-
 /* Background and Image Styling*/
 
 #album-cover {
@@ -84,8 +76,7 @@ body {
     max-width: 130%;
     border: 2px solid rgb(221, 221, 221);
     margin-bottom: 50px;
-        box-shadow: 3px 3px rgb(221, 221, 221);
-
+    box-shadow: 3px 3px rgb(221, 221, 221);
 }
 
 .img-responsive {
@@ -93,10 +84,6 @@ body {
 }
 
 /* Background Styling*/
-
-
-
-
 
 .songkick {
     text-align: center;
@@ -108,9 +95,6 @@ body {
     margin-top: 70px;
 }
 
-
-
-
 .box ul li {
     list-style: none;
     margin-bottom: 20px;
@@ -119,27 +103,19 @@ body {
 }
 
 .box ul li:hover {
-
     cursor: pointer;
     color: #EA7F64;
 }
-
-
 
 #home {
     background-color: #FEFEFE;
 }
 
-
 #Videos {
-
     padding-top: 20px;
-
 }
 
-
 #Album {
-
     padding-top: 50px;
 }
 
@@ -150,8 +126,6 @@ body {
 #Kontakt {
     padding-top: 50px;
 }
-
-
 
 /* Social Buttons Styling */
 
@@ -189,14 +163,11 @@ body {
     font-weight: bold;
 }
 
-
 .social2 {
     display: inline-block;
-
 }
 
 .icons {
-
     text-align: center;
 }
 
@@ -206,96 +177,63 @@ body {
 
 /* Social Buttons Styling End */
 
-
-
 /* Rest Style */
 
-
 footer {
-
     margin-bottom: 50px;
     margin-top: 50px;
-
 }
 
 .fa-paper-plane {
-
     color: black;
-
 }
 
-
 .btn-info {
-
     background-color: #CAD5AF;
     color: rgb(40, 54, 54);
-
 }
 
 .btn-info:hover {
-
     background-color: #EA7F64;
-
 }
 
-
 #datenschutz {
-
     cursor: pointer;
-
 }
 
 /* Rest Style End */
 
-
-
-
 /* Songs Styling */
 
-
-
-
-
 .active {
-
     color: #EA7F64;
 }
 
 /* Songs Styling End */
 
-
 .radio-inline {
-
     float: right;
     font-weight: bold;
 }
 
-
 #slider1 {
-
     width: 100%;
 }
-
-
 
 .my-carousel {
     top: 0;
 }
 
-.my-nav {
+/* .my-nav {
     position: absolute;
     top: 30px;
     width: 100%;
     z-index: 999;
 
-}
-
-
+} */
 
 .insta img {
-
-padding-right: 7px;
-margin: 20px;
-border-radius: 35px;
-
+    padding-right: 7px;
+    margin: 20px;
+    border-radius: 35px;
 }
