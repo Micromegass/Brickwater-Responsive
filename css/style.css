@@ -1,9 +1,15 @@
+html {
+    font-family: 'Rajdhani', sans-serif;
+
+
+}
+
 * {
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: 'Rajdhani', sans-serif;
     background-color: #FEFEFE;
 
 }
@@ -290,5 +296,6 @@ footer {
 
 padding-right: 7px;
 margin: 20px;
+border-radius: 35px;
 
 }
