@@ -82,8 +82,10 @@ body {
 #album-cover {
     display: inline-block;
     max-width: 130%;
-    border: 2px solid lightslategray;
+    border: 2px solid rgb(221, 221, 221);
     margin-bottom: 50px;
+        box-shadow: 3px 3px rgb(221, 221, 221);
+
 }
 
 .img-responsive {
