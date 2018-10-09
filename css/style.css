@@ -240,7 +240,7 @@ footer {
 .insta img {
     padding-right: 7px;
     margin: 20px;
-    border-radius: 35px;
+    border-radius: 20px;
 }
 
 
@@ -265,4 +265,10 @@ footer {
 .modal-title {
 
     text-align: center;
+}
+
+
+.insta img {
+
+    max-width: 80px;;
 }
