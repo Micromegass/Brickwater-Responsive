@@ -272,3 +272,15 @@ footer {
 
     max-width: 80px;;
 }
+
+
+.showmore {
+
+color: #3498DB;
+    
+
+}
+
+.showmore:hover {
+    cursor: pointer; 
+}

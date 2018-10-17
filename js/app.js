@@ -1,6 +1,8 @@
 $(document).ready(function () {
 
 
+
+
     $('#textsong2').hide();
     $('#textsong3').hide();
     $('#textsong4').hide();
@@ -183,3 +185,13 @@ $('.translate').on('click', function () {
 
 
 
+ $('.showmore').on('click', function () {
+   $('.cut').removeClass("hidden-xs");
+   $(".showmore").hide();
+ });
+
+  $('.showless').on('click', function () {
+      $('.cut').addClass("hidden-xs");
+      $(".showmore").show();
+
+  });
