@@ -274,13 +274,18 @@ footer {
 }
 
 
-.showmore {
+.showmore, .showless {
 
 color: #3498DB;
-    
 
 }
 
+.showless:hover {
+
+    cursor: pointer;
+}
+
 .showmore:hover {
-    cursor: pointer; 
+
+    cursor: pointer;
 }
