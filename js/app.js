@@ -169,16 +169,16 @@ $('#german').hide();
 
 $('.übersetzen').on('click', function () {
 
-    $('#english').hide();
-    $('#german').show();
+    $('#english').hide(2000);
+    $('#german').show(2000);
 
 
 });
 
 $('.translate').on('click', function () {
 
-    $('#english').show();
-    $('#german').hide();
+    $('#english').show(2000);
+    $('#german').hide(2000);
 
 
 });
