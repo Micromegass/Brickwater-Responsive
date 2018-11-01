@@ -1,8 +1,7 @@
 $(document).ready(function () {
 
 
-
-
+    $('#textsong1').hide();
     $('#textsong2').hide();
     $('#textsong3').hide();
     $('#textsong4').hide();
@@ -14,118 +13,6 @@ $(document).ready(function () {
 
 
 
-
-    $('#song1').on('click', function () {
-        $('#textsong1').show('#textsong1');
-        $("li").removeClass('active');
-        $('#song1').addClass('active');
-        $('#textsong2').hide();
-        $('#textsong3').hide();
-        $('#textsong4').hide();
-        $('#textsong5').hide();
-        $('#textsong6').hide();
-        $('#textsong7').hide();
-        $('#textsong8').hide();
-
-    });
-
-
-    $('#song2').on('click', function () {
-        $('#textsong2').show('#textsong2');
-        $('li').removeClass('active');
-        $('#song2').addClass('active');
-        $('#textsong1').hide();
-        $('#textsong3').hide();
-        $('#textsong4').hide();
-        $('#textsong5').hide();
-        $('#textsong6').hide();
-        $('#textsong7').hide();
-        $('#textsong8').hide();
-    });
-
-    $('#song3').on('click', function () {
-        $('#textsong3').show('#textsong3');
-        $('li').removeClass('active');
-        $('#song3').addClass('active');
-        $('#textsong1').hide();
-        $('#textsong2').hide();
-        $('#textsong4').hide();
-        $('#textsong5').hide();
-        $('#textsong6').hide();
-        $('#textsong7').hide();
-        $('#textsong8').hide();
-    });
-
-    $('#song4').on('click', function () {
-        $('#textsong4').show('#textsong4');
-        $('li').removeClass('active');
-        $('#song4').addClass('active');
-        $('#textsong1').hide();
-        $('#textsong2').hide();
-        $('#textsong3').hide();
-        $('#textsong5').hide();
-        $('#textsong6').hide();
-        $('#textsong7').hide();
-        $('#textsong8').hide();
-    });
-
-
-    $('#song5').on('click', function () {
-        $('#textsong5').show('#textsong5');
-        $('li').removeClass('active');
-        $('#song5').addClass('active');
-
-        $('#textsong1').hide();
-        $('#textsong2').hide();
-        $('#textsong3').hide();
-        $('#textsong4').hide();
-        $('#textsong6').hide();
-        $('#textsong7').hide();
-        $('#textsong8').hide();
-    });
-
-    $('#song6').on('click', function () {
-        $('#textsong6').show('#textsong6');
-        $('li').removeClass('active');
-        $('#song6').addClass('active');
-
-        $('#textsong1').hide();
-        $('#textsong2').hide();
-        $('#textsong3').hide();
-        $('#textsong4').hide();
-        $('#textsong5').hide();
-        $('#textsong7').hide();
-        $('#textsong8').hide();
-    });
-
-
-    $('#song7').on('click', function () {
-        $('#textsong7').show('#textsong7');
-        $('li').removeClass('active');
-        $('#song7').addClass('active');
-
-        $('#textsong1').hide();
-        $('#textsong2').hide();
-        $('#textsong3').hide();
-        $('#textsong4').hide();
-        $('#textsong5').hide();
-        $('#textsong6').hide();
-        $('#textsong8').hide();
-    });
-
-
-    $('#song8').on('click', function () {
-        $('#textsong8').show('#textsong8');
-        $('li').removeClass('active');
-        $('#song8').addClass('active');
-        $('#textsong1').hide();
-        $('#textsong2').hide();
-        $('#textsong3').hide();
-        $('#textsong4').hide();
-        $('#textsong5').hide();
-        $('#textsong7').hide();
-        $('#textsong6').hide();
-    });
 
 
     $(document).on("scroll", onScroll);
@@ -195,3 +82,116 @@ $('.translate').on('click', function () {
       $(".showmore").show();
 
   });
+
+
+
+  $('#song1').on('click', function () {
+      $('#textsong1').toggle(500);
+      $("li").removeClass('active');
+      $('#song1').addClass('active');
+      $('#textsong2').hide();
+      $('#textsong3').hide();
+      $('#textsong4').hide();
+      $('#textsong5').hide();
+      $('#textsong6').hide();
+      $('#textsong7').hide();
+      $('#textsong8').hide();
+
+  });
+
+
+   $('#song2').on('click', function () {
+       $('#textsong2').toggle('#textsong2');
+       $('li').removeClass('active');
+       $('#song2').addClass('active');
+       $('#textsong1').hide();
+       $('#textsong3').hide();
+       $('#textsong4').hide();
+       $('#textsong5').hide();
+       $('#textsong6').hide();
+       $('#textsong7').hide();
+       $('#textsong8').hide();
+   });
+
+   $('#song3').on('click', function () {
+       $('#textsong3').toggle('#textsong3');
+       $('li').removeClass('active');
+       $('#song3').addClass('active');
+        $('#textsong1').hide();
+       $('#textsong2').hide();
+       $('#textsong4').hide();
+       $('#textsong5').hide();
+       $('#textsong6').hide();
+       $('#textsong7').hide();
+       $('#textsong8').hide();
+   });
+
+   $('#song4').on('click', function () {
+       $('#textsong4').toggle('#textsong4');
+       $('li').removeClass('active');
+       $('#song4').addClass('active');
+        $('#textsong1').hide();
+       $('#textsong2').hide();
+       $('#textsong3').hide();
+       $('#textsong5').hide();
+       $('#textsong6').hide();
+       $('#textsong7').hide();
+       $('#textsong8').hide();
+   });
+
+
+   $('#song5').on('click', function () {
+       $('#textsong5').toggle('#textsong5');
+       $('li').removeClass('active');
+       $('#song5').addClass('active');
+       $('#textsong1').hide();
+       $('#textsong2').hide();
+       $('#textsong3').hide();
+       $('#textsong4').hide();
+       $('#textsong6').hide();
+       $('#textsong7').hide();
+       $('#textsong8').hide();
+   });
+
+   $('#song6').on('click', function () {
+       $('#textsong6').toggle('#textsong6');
+       $('li').removeClass('active');
+       $('#song6').addClass('active');
+       $('#textsong1').hide();
+
+       $('#textsong2').hide();
+       $('#textsong3').hide();
+       $('#textsong4').hide();
+       $('#textsong5').hide();
+       $('#textsong7').hide();
+       $('#textsong8').hide();
+   });
+
+
+   $('#song7').on('click', function () {
+       $('#textsong7').toggle('#textsong7');
+       $('li').removeClass('active');
+       $('#song7').addClass('active');
+       $('#textsong1').hide();
+
+       $('#textsong2').hide();
+       $('#textsong3').hide();
+       $('#textsong4').hide();
+       $('#textsong5').hide();
+       $('#textsong6').hide();
+       $('#textsong8').hide();
+   });
+
+
+   $('#song8').on('click', function () {
+       $('#textsong8').toggle('#textsong8');
+       $('li').removeClass('active');
+       $('#song8').addClass('active');
+       $('#textsong1').hide();
+       $('#textsong2').hide();
+       $('#textsong3').hide();
+       $('#textsong4').hide();
+       $('#textsong5').hide();
+       $('#textsong7').hide();
+       $('#textsong6').hide();
+   });
