@@ -271,7 +271,7 @@ footer {
 
 .insta img {
 
-    max-width: 80px;;
+    max-width: 100px;;
 }
 
 
@@ -303,3 +303,23 @@ color: #3498DB;
     padding-bottom: 15px;
 }
 
+#buyme a {
+    background: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+
+    
+}
+
+#buyme {
+
+margin-left: 80px;
+
+}
+
+#buyme a:hover {
+  color:white;
+  background: black;
+
+}
