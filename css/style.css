@@ -5,7 +5,7 @@
 body {
     background-color: #FEFEFE;
     font-family: 'Raleway',
-    sans-serif;
+        sans-serif;
 }
 
 .brick-logo img {
@@ -13,6 +13,7 @@ body {
     width: 220px;
     padding-right: 20px;
 }
+
 
 
 /* Navbar Styling */
@@ -25,7 +26,7 @@ body {
 
 .navbar {
     padding-top: 10px;
-    padding-bottom:5px;
+    padding-bottom: 5px;
     margin-bottom: 0;
     border-radius: 0;
     border: 0;
@@ -63,12 +64,21 @@ body {
     background-color: #FFFFFF;
     color: black;
     font-family: 'Raleway',
-    sans-serif;
+        sans-serif;
     font-size: 17px;
 
 }
 
 
+#slider4 {
+    width: 1422px;
+    height: 505px;
+}
+
+#slider5 {
+    width: 1422px;
+    height: 505px;
+}
 
 
 .navbar-brand {
@@ -245,7 +255,8 @@ footer {
 }
 
 
-.translate, .übersetzen {
+.translate,
+.übersetzen {
 
     cursor: pointer;
     color: #3498DB;
@@ -271,13 +282,15 @@ footer {
 
 .insta img {
 
-    max-width: 100px;;
+    max-width: 100px;
+    ;
 }
 
 
-.showmore, .showless {
+.showmore,
+.showless {
 
-color: #3498DB;
+    color: #3498DB;
 
 }
 
@@ -309,17 +322,17 @@ color: #3498DB;
     padding: 10px;
     margin: 2px;
 
-    
+
 }
 
 #buyme {
 
-margin-left: 80px;
+    margin-left: 80px;
 
 }
 
 #buyme a:hover {
-  color:white;
-  background: black;
+    color: white;
+    background: black;
 
 }
