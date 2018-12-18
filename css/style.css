@@ -6,6 +6,7 @@ body {
     background-color: #FEFEFE;
     font-family: 'Raleway',
         sans-serif;
+    overflow-x: hidden;
 }
 
 .brick-logo img {
@@ -13,8 +14,6 @@ body {
     width: 220px;
     padding-right: 20px;
 }
-
-
 
 /* Navbar Styling */
 
@@ -74,6 +73,7 @@ body {
     min-height: 55px;
     padding: 0 15px 5px;
 }
+
 
 /* Navbar Styling End*/
 
